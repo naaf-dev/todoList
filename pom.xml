@@ -1,0 +1,12 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.naaf.tuto</groupId>
+  <artifactId>todoList</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>root of the project todo list</name>
+  <description>todo list is a project that allows you to manage your task (store, view, edit, track progress, and other functionnalities)</description>
+  <modules>
+  	<module>domain</module>
+  </modules>
+</project>
