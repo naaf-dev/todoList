@@ -1,7 +1,7 @@
 pipeline {
 	agent any
 	triggers {
-	    pollSCM ('H/20 * * * *')
+	    pollSCM ('* * * * *')
 	}
 	stages {
 		stage('Source') { // Get code
@@ -19,8 +19,6 @@ pipeline {
 
 		 }
 
-	
-	    
 	}
 	post {
 	    

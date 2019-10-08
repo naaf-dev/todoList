@@ -6,6 +6,8 @@
   <packaging>pom</packaging>
   <name>root of the project todo list</name>
   <description>todo list is a project that allows you to manage your task (store, view, edit, track progress, and other functionnalities)</description>
+ 
+ 
   <modules>
   	<module>domain</module>
   </modules>
